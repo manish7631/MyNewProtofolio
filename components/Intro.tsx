@@ -36,13 +36,13 @@ export default function Intro() {
             </div>
             {/* ----------------------------Text Intro----------------------------------- */}
 
-            <motion.p className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl' initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
+            <motion.h1 className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl' initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
                 <span className="font-bold">Hello, I'm Manish.</span> I'm a{" "}
                 <span className="font-bold">full-stack developer</span> with{" "}
                 <span className="font-bold">2 years</span> of experience. I enjoy
                 building <span className="italic">sites.</span> My focus is{" "}
                 <span className="underline">React (Next.js)</span>.
-            </motion.p>
+            </motion.h1>
 
 
             {/* ------------------------Button--------------------------- */}
